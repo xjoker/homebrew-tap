@@ -1,28 +1,28 @@
 class CodexSwitch < Formula
   desc "Codex account switcher — multi-profile manager with usage dashboard"
   homepage "https://github.com/xjoker/codex-switch"
-  version "0.0.4"
+  version "0.0.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/xjoker/codex-switch/releases/download/v0.0.4/cs-darwin-arm64.tar.gz"
-      sha256 "9f7a1c7c8b46c83e522b5283894e624a3ac74b275886725d03cf42175f75b153"
+      url "https://github.com/xjoker/codex-switch/releases/download/v0.0.5/cs-darwin-arm64.tar.gz"
+      sha256 "454e8f3b17231527ad3deadaf775402e746cd44b9a6033510f1af832ae086e94"
     end
     on_intel do
-      url "https://github.com/xjoker/codex-switch/releases/download/v0.0.4/cs-darwin-amd64.tar.gz"
-      sha256 "ce51dae97c8881f115be58c9a9433b565861b1947412c6e865d9583b6bdf7b01"
+      url "https://github.com/xjoker/codex-switch/releases/download/v0.0.5/cs-darwin-amd64.tar.gz"
+      sha256 "92d60783d7d877fb2e06f3f975e41069de5674b73c5be4f99e2347fc8676f3c8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/xjoker/codex-switch/releases/download/v0.0.4/cs-linux-arm64.tar.gz"
-      sha256 "fa7ac87b68bfe8846128e0eab0ff4dbafb9794a5448dc3dc2971907f0c735bc2"
+      url "https://github.com/xjoker/codex-switch/releases/download/v0.0.5/cs-linux-arm64.tar.gz"
+      sha256 "52d4b02391a0a5665a3b5545b920699cfd524c8e057f1246755ecc3e4e1afa15"
     end
     on_intel do
-      url "https://github.com/xjoker/codex-switch/releases/download/v0.0.4/cs-linux-amd64.tar.gz"
-      sha256 "52f2b98f26b94fdaa48d9b0aa6e144ff6ee8ed945c80bf52d124fb3c3d911dc7"
+      url "https://github.com/xjoker/codex-switch/releases/download/v0.0.5/cs-linux-amd64.tar.gz"
+      sha256 "540a2889d51a0b541ba3db04f42e5ab880fab19724f605a13beba74a69a64e8c"
     end
   end
 
