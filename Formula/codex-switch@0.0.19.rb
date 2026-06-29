@@ -1,4 +1,4 @@
-class CodexSwitch < Formula
+class CodexSwitchAT0_0_19 < Formula
   desc "Codex account switcher — multi-profile manager with usage dashboard"
   homepage "https://github.com/xjoker/codex-switch"
   version "0.0.19"
@@ -25,6 +25,8 @@ class CodexSwitch < Formula
       sha256 "3589fdac3d480aea83ab61dd4fb0a7592c018a44415842083df2d5f1d0bb0d2f"
     end
   end
+
+  keg_only :versioned_formula
 
   def install
     bin.install "codex-switch"
